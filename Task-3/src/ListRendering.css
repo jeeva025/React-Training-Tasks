@@ -1,0 +1,88 @@
+.list-container {
+    min-height: 100vh;
+    padding: 40px 25px;
+    background: linear-gradient(135deg, #0f172a, #345fa4);
+}
+
+.list-container h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 36px;
+    color: #f8fafc;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 4px gray;
+}
+
+.cards-container {
+    width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+
+    padding: 25px;
+    border-radius: 16px;
+
+    background: rgb(230, 228, 228);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 10px 30px rgb(38, 37, 37);
+
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.card p:first-child {
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #4f46e5;
+}
+
+.card p:not(:first-child) {
+    margin: 12px 0;
+
+    font-size: 16px;
+    color: #475569;
+
+    padding: 8px 10px;
+
+    border-radius: 8px;
+    background-color: #f8fafc;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.card p:nth-child(2) {
+    border-left: 4px solid #6366f1;
+}
+
+.card p:nth-child(3) {
+    border-left: 4px solid #22c55e;
+}
+
+.card p:nth-child(4) {
+    border-left: 4px solid #f59e0b;
+}
+
+.card p:nth-child(5) {
+    border-left: 4px solid #ec4899;
+}
+
