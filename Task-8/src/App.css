@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #f1f5f9;
+}
+
+.component {
+    border-radius: 12px;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 700px;
+    transition: 0.3s;
+}
+
+.component h1 {
+    margin-top: 0;
+}
+
+
+/* Light Theme */
+
+.light {
+    background-color: white;
+    color: #333333;
+    border: 1px solid #dddddd;
+}
+
+/* Dark Theme */
+
+.dark {
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #475569;
+}
+
+.component-one {
+    text-align: center;
+}
+
+.component-two {
+    background-color: #e8f0fe;
+}
+
+.component-two.dark {
+    background-color: #334155;
+}
+
+.component-three {
+    background-color: #f8fafc;
+    text-align: center;
+}
+
+.component-three.dark {
+    background-color: #475569;
+}
+
+.theme-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.theme-button:hover {
+    background-color: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+
+    .app {
+        padding: 20px 10px;
+    }
+
+    .component {
+        padding: 20px;
+    }
+
+    .component h1 {
+        font-size: 20px;
+    }
+}
