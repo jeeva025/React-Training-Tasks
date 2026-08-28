@@ -24,12 +24,12 @@ function Contact() {
 
           <div className="contact-item">
             <strong>📧 Email</strong>
-            <p>hello@devstudio.com</p>
+            <p>jeeva@gmail.com</p>
           </div>
 
           <div className="contact-item">
             <strong>📞 Phone</strong>
-            <p>+91 98765 43210</p>
+            <p>+91 9087654321</p>
           </div>
 
           <div className="contact-item">
@@ -39,7 +39,7 @@ function Contact() {
 
         </div>
 
-        <div className="contact-form">
+        {/* <div className="contact-form">
 
           <input
             type="text"
@@ -63,7 +63,7 @@ function Contact() {
 
           <button>Send Message</button>
 
-        </div>
+        </div> */}
 
       </div>
 
