@@ -35,7 +35,6 @@
 }
 
 
-/* User List */
 
 .user-list {
   display: flex;
@@ -128,7 +127,7 @@
   white-space: nowrap;
 }
 
-/* Role Based */
+
 
 .role-badge {
   width: fit-content;
@@ -187,7 +186,6 @@
 }
 
 
-   /* Page Numbers */
 
 .page-numbers {
   display: flex;
@@ -219,7 +217,6 @@
 }
 
 
-/* Active page */
 
 .page-number.active {
   background: #4f46e5;
@@ -228,7 +225,6 @@
 }
 
 
-   /* Page Indicator */
 
 .page-indicator {
   margin-top: 18px;
