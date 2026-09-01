@@ -48,9 +48,7 @@ function UserDetails({ users }) {
           {currentItems.map((u, i) => (
             <div className="user-card" key={i}>
               <div className="user-info">
-                <div className="user-avatar">
-                  {u.name.charAt(0)}
-                </div>
+                
 
                 <div className="user-name">
                   <h2>{u.name}</h2>
